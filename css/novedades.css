@@ -1,0 +1,24 @@
+.col-6{
+    color: #fff;
+}
+
+h1{
+    color: #aaf;
+    border-bottom: 2px solid #aaf;
+}
+
+.row{
+    color: #fff;
+}
+
+h3, h4 {
+    font-size: 20px !important;
+}
+
+.novedades{
+    border-bottom: 2px solid #888;
+}
+
+.novedades:hover{
+    border-bottom: 5px solid #ccc;
+}
