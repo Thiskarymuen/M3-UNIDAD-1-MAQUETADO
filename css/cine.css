@@ -4,9 +4,14 @@ body {
     line-height: 20px;
 }
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 header {
     background-color: #303030;
-    padding: 16px 0;
+    padding-bottom: 16px;
 }
 
 .logo {
@@ -100,4 +105,5 @@ h6 {
     text-align: center;
     background-color: #aaf;
     overflow: hidden;
+    font-size: 17px !important;
 }

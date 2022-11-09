@@ -5,3 +5,7 @@
 .abc{
     color: #aaf;
 }
+
+iframe{
+    max-width: 380px;
+}

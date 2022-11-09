@@ -8,11 +8,6 @@ body{
 .row{
     color: #4c76a5;
 }
-
-header{
-    background-color: #303030;
-    padding: 16px 0;
-}
 .logo{
     margin-left: 40px;
     height: 100px;
