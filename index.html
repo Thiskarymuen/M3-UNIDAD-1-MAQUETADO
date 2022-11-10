@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/cine.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -71,6 +72,7 @@
                 </button>
             </div>
             <div class="container-fluid">
+                <button class="boton alternar activo">asdasdsadsa</button>
                 <div class="cartelera">
                     <div class="d-flex flex-wrap">
                         <div class="pelicula">
@@ -138,7 +140,22 @@
         </div>
     </footer>
 
-
+    <script>
+        // CSS
+        const alternar = document.getElementsByClassName('alternar')[0];          
+         
+        /**
+         * classList representa la lista de clases asignadas a un elemento
+         * toggle nos permite "prender" o "apagar" una clase en un objeto
+         * add agrega la clase o clases que le pasemos
+         * remove remueve la clase o clases que le pasemos
+         */
+        alternar.addEventListener('click', function(e) {
+            e.currentTarget.classList.toggle('activo');
+        });
+   	
+    
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
