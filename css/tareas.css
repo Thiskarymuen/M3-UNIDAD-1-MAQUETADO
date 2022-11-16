@@ -1,0 +1,33 @@
+
+p{
+    display: inline-block;
+}
+.boton {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.alternar {
+    width: 300px;
+    height: 200px;
+    background: #666666;
+}
+
+.alternar.verde.activo {
+    background: green;
+    color: white;
+}
+.alternar.azul.activo {
+    background: blue;
+    color: white;
+}
+.alternar.rojo.activo {
+    background: red;
+    color: white;
+}

@@ -107,11 +107,3 @@ h6 {
     overflow: hidden;
     font-size: 17px !important;
 }
-
-.alternar {
-    background: lightblue !important;
-}
-
-.alternar.activo {
-    background: blue;
-}
